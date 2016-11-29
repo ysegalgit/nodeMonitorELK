@@ -1,0 +1,14 @@
+{
+  "name": "node-monitor-elk",
+  "version": "1.0.0",
+  "description": "A lightweight and simple server monitor to be used with ELK",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ys",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^1.24.0"
+  }
+}
