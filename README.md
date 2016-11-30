@@ -1,2 +1,2 @@
 # nodeMonitorELK
-super light service to monitor a machine with potential bound to ELK
+A super light service to monitor a machine OS with a potential bound to ELK

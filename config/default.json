@@ -7,15 +7,21 @@
 
     "output" : {
         "stdout"    : {
-            "enabled" : false
+            "enabled"   : false,
+            "level"     : "debug"
         },
-        "log"       : {
+        "logFile"       : {
             "enabled"       : true,
             "name"          : "monitor.log",
-            "rolloverMb"    : 3
+            "level" 	    : "debug",
+            "maxSizeMB"	    : 3,
+    		"maxFiles"	    : 5
         },
-        "elasticSearch" : {
-            "enabled" : false
+        "logstash" : {
+            "enabled"   : false,
+            "host"      : "52.18.3.53",
+            "port"      : 5055,
+            "appName"   : "ysMonitorTest"
         }
     }
 
