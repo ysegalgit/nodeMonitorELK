@@ -6,7 +6,6 @@ var memMonitor = require('./lib/monitors/memMonitor.js');
 
 var timeIntervalMsec = config.get('timeIntervalMsec');
 
-//cl(cpuMonitor.getSnapshot());
 cpuMonitor.monitor(timeIntervalMsec.cpu);
 memMonitor.monitor(timeIntervalMsec.memory);
 

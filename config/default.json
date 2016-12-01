@@ -1,24 +1,24 @@
 {
     "timeIntervalMsec" : {
-        "cpu"       : 4000,
-        "memory"    : 3000,
+        "cpu"       : 5000,
+        "memory"    : 20000,
         "disk"      : 10000
     },
 
     "output" : {
         "stdout"    : {
-            "enabled"   : false,
+            "enabled"   : true,
             "level"     : "debug"
         },
         "logFile"       : {
-            "enabled"       : true,
+            "enabled"       : false,
             "name"          : "monitor.log",
             "level" 	    : "debug",
             "maxSizeMB"	    : 3,
     		"maxFiles"	    : 5
         },
         "logstash" : {
-            "enabled"   : false,
+            "enabled"   : true,
             "host"      : "52.18.3.53",
             "port"      : 5055,
             "appName"   : "ysMonitorTest"
