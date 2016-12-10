@@ -1,8 +1,8 @@
 {
     "timeIntervalMsec" : {
-        "cpu"       : 5000,
-        "memory"    : 20000,
-        "disk"      : 10000
+        "cpu"       : 20000,
+        "memory"    : 120000,
+        "disk"      : 240000
     },
 
     "output" : {
