@@ -1,6 +1,6 @@
 {
   "name": "node-monitor-elk",
-  "version": "0.16.48.1",
+  "version": "0.16.50.0",
   "description": "A lightweight and simple server monitor to be used with ELK",
   "main": "index.js",
   "repository": {
@@ -14,7 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "config": "^1.24.0",
-    "winston" : "2.3.0",
-    "winston-logstash-udp" : "0.1.1"
+    "diskspace": "^1.0.3",
+    "winston": "2.3.0",
+    "winston-logstash-udp": "0.1.1"
   }
 }
