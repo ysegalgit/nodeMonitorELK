@@ -1,8 +1,8 @@
 {
     "timeIntervalMsec" : {
-        "cpu"       : 5000,
-        "memory"    : 6000,
-        "disk"      : 7000
+        "cpu"       : 2000,
+        "memory"    : 60000,
+        "disk"      : 70000
     },
 
     "output" : {
@@ -11,7 +11,7 @@
             "level"     : "debug"
         },
         "logFile"       : {
-            "enabled"       : false,
+            "enabled"       : true,
             "name"          : "monitor.log",
             "level" 	    : "debug",
             "maxSizeMB"	    : 3,
