@@ -12,8 +12,8 @@ fi
 #git checkout -f config.json
 git pull origin
 npm install
-npm run startProd
-#export NODE_ENV=production
+#npm run startProd
+export NODE_ENV=production
 #pm2 start $1
 pm2 reload $1
 
