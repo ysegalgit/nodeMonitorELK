@@ -1,8 +1,8 @@
 {
     "timeIntervalMsec" : {
-        "cpu"       : 30000,
-        "memory"    : 120000,
-        "disk"      : 40000
+        "cpu"       : 5000,
+        "memory"    : 6000,
+        "disk"      : 7000
     },
 
     "output" : {
@@ -18,10 +18,10 @@
     		"maxFiles"	    : 5
         },
         "logstash" : {
-            "enabled"   : true,
+            "enabled"   : false,
             "host"      : "52.18.3.53",
             "port"      : 5055,
-            "appName"   : "ysMonitorTest"
+            "appName"   : "MonitorTestDefault"
         }
     }
 
