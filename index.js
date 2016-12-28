@@ -20,5 +20,5 @@ diskMonitor.monitor(timeIntervalMsec.disk);
 
 
 function cl(text){
-  console.log(text);
+	console.log(text);
 }
