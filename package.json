@@ -1,6 +1,6 @@
 {
   "name": "node-monitor-elk",
-  "version": "0.16.50.0",
+  "version": "0.16.52.0",
   "description": "A lightweight and simple server monitor to be used with ELK",
   "main": "index.js",
   "repository": {
